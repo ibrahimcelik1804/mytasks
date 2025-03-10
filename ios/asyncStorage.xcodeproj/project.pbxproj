@@ -12,6 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		161B92B03135458D8D8E51EC /* Fuzzy Bubbles Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2F381A88AB4B939308760E /* Fuzzy Bubbles Regular.ttf */; };
+		31B3019D0C364FE1AABA75B9 /* Monda-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC98B08D25834210B220EEF2 /* Monda-Medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-asyncStorage-asyncStorageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-asyncStorage-asyncStorageTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FF4F286FDF5FB379E55FBDA2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D4D09C1A72D17E0328290924 /* PrivacyInfo.xcprivacy */; };
@@ -39,12 +41,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = asyncStorage/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = asyncStorage/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-asyncStorage-asyncStorageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asyncStorage-asyncStorageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2F381A88AB4B939308760E /* Fuzzy Bubbles Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Fuzzy Bubbles Regular.ttf"; path = "../assets/fonts/Fuzzy Bubbles Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-asyncStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asyncStorage.debug.xcconfig"; path = "Target Support Files/Pods-asyncStorage/Pods-asyncStorage.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-asyncStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asyncStorage.release.xcconfig"; path = "Target Support Files/Pods-asyncStorage/Pods-asyncStorage.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-asyncStorage-asyncStorageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asyncStorage-asyncStorageTests.debug.xcconfig"; path = "Target Support Files/Pods-asyncStorage-asyncStorageTests/Pods-asyncStorage-asyncStorageTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-asyncStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asyncStorage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = asyncStorage/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-asyncStorage-asyncStorageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asyncStorage-asyncStorageTests.release.xcconfig"; path = "Target Support Files/Pods-asyncStorage-asyncStorageTests/Pods-asyncStorage-asyncStorageTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC98B08D25834210B220EEF2 /* Monda-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Monda-Medium.ttf"; path = "../assets/fonts/Monda-Medium.ttf"; sourceTree = "<group>"; };
 		D4D09C1A72D17E0328290924 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = asyncStorage/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -127,6 +131,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D7C7BCF81A25409D8E7C89B1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +156,16 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-asyncStorage-asyncStorageTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7C7BCF81A25409D8E7C89B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC98B08D25834210B220EEF2 /* Monda-Medium.ttf */,
+				1D2F381A88AB4B939308760E /* Fuzzy Bubbles Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +264,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				FF4F286FDF5FB379E55FBDA2 /* PrivacyInfo.xcprivacy in Resources */,
+				31B3019D0C364FE1AABA75B9 /* Monda-Medium.ttf in Resources */,
+				161B92B03135458D8D8E51EC /* Fuzzy Bubbles Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
