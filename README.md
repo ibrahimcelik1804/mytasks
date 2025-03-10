@@ -23,4 +23,4 @@ Crud</strong> uygulamasıdır. Proje, <strong>React Native CLI</strong><strong>R
 </ul>
 
 <h2>🎨 Proje Görseli</h2>
-<img src="https://github.com/ibrahimcelik1804/AmazonClone/blob/main/src/assets/gorsel%C3%8F.gif" alt="Proje Görseli" width="600"/>
+<img src="https://github.com/ibrahimcelik1804/mytasks/blob/main/assets/fonts/Ads%C4%B1z%20tasar%C4%B1m%20(5).gif" alt="Proje Görseli" width="600"/>
